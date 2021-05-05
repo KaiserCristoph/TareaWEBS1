@@ -1,0 +1,25 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+div {
+    background-color: lightgray;
+    padding:  25px;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+h1{
+    align-self: center;
+    width: 100%;
+}
+
+button{
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: lightcoral;
+    transition: all .236s ease-in-out;
+}
