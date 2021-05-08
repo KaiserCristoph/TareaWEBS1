@@ -2,24 +2,73 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
+body{
+    background-color: #59ABE3;
+    margin: auto;
+    width: 55%;
+    padding: 10px;
+}
 
 div {
-    background-color: lightgray;
-    padding:  25px;
-    max-width: fit-content;
-    margin: 0 auto;
+    background-color:#faf8f8;
+    padding:  50px 60px;
+    max-width: calc(100vw - 40px) auto;
+    border-radius:10px;
+    box-shadow:0 0 40px -10px rgb(27, 27, 27);
+    width:700px;
+    height:450px
+      
 }
 
 h1{
-    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
     width: 100%;
+    color: #0269ad;
+    font-size: 35px;
+
 }
 
+hr{
+    border: 2px solid  rgb(207, 207, 207);
+    border-radius: 2px;
+}
+
+       
+h2{
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    width: 100%;
+    color:#59ABE3;
+    font-size: 20px;
+}
+
+
 button{
-    border-radius: 4px;
+    border-radius: 7px;
+    color:#ffffff;
+    background-color: #59ABE3;
+    float: left;
+    padding: 7px;
+    border: 2px solid  rgb(207, 207, 207);
 }
 
 button:hover{
-    background-color: lightcoral;
+    background-color: #59ace39c;
     transition: all .236s ease-in-out;
 }
+
+tr{
+    width: 100%; 
+    align-content: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(207, 207, 207);
+    background-color: rgb(255, 255, 255);
+}
+ 
